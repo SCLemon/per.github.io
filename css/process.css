@@ -1,0 +1,356 @@
+.header{
+    height:60px;
+    width:100%;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background:rgba(240, 248, 255, 0.6);
+    position: fixed;
+    z-index:1000;
+}
+.header img{
+    height:40px;
+    padding-left:30px;
+}
+.header ul{
+    display:flex;
+}
+.header ul>li a{
+    text-decoration: none;
+    color:gray;
+    line-height: 60px;
+    text-align: center;
+    padding-right: 25px;
+    padding-left:25px;
+    display:block;
+}
+.header ul>li a:hover{
+    background-color: gray;
+    color:white;
+}
+.home{
+    width:1400px;
+    margin: 0 auto;
+    height: 704.5px;
+    position: relative;
+}
+.home img{
+    width:100%;
+}
+.home-text{
+    position: absolute;
+    color:white;
+    top:430px;
+    left:80px;
+    
+}
+.home-text h1{
+    font-size: 48px;
+    padding-bottom:8px;
+    
+}
+.process{
+    width:1400px;
+    margin: 0 auto;
+    background-image: url(../images/pexels-cokelat-_brown_-senior-694587.jpg);
+    background-size: 100%;
+    height:1200px;
+}
+.process>h1{
+    text-align: center;
+    font-size: 28px;
+    line-height: 2;
+    font-weight: bolder;
+    color: white;
+    margin-bottom:10px;
+    padding-top:10px;
+
+}
+.process-box{
+    width:1200px;
+    height:250px;
+    margin-left:90px;
+    margin-right:100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 6px;
+    margin-bottom:30px;
+    background-color: rgb(255, 255, 255,0.65);
+    position: relative;
+}
+.box-img{
+    width:45%;
+    height:150px;
+    border-right:0.1px solid gray;
+    
+}
+.box-img img{
+    height:220px;
+    width:370px;
+    border-radius: 5px;
+    position: absolute;
+    left:90px;
+    top:15px;
+}
+.box-text{
+    width:48%;
+    padding-left:30px;
+
+    
+}
+.box-text h2{
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2;
+    
+}
+.box-text p{
+    height: 120px;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    text-align: justify;
+    overflow: scroll;
+}
+.best-pt{
+    width:1400px;
+    height:1120px;
+    margin: 0 auto;
+    background-image: url(../images/pexels-karolina-grabowska-4041285.jpg);
+    background-size: 120%;
+}
+.best-pt>h1{
+    font-size: 34px;
+    padding-top:10px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 2;
+    color: white;
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+.pt{
+    width:100%;
+    height:270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pt-img{
+    width:30%;
+    height:240px;
+    background-color: rgba(255, 255, 255, 0.45);
+    background-image: url(../images/pexels-karolina-grabowska-4041242.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 85%;
+    
+}
+.pt-img img{
+    width:220px;
+    height:220px;
+    margin-top:15.5px;
+    margin-left:96px;
+    border-radius: 220px;
+    box-shadow: 1px 1px 1px gray;
+    overflow:hidden;
+    z-index: 1;
+    
+} 
+
+.pt-text{
+    width:50%;
+    height:240px;
+    background-color: rgba(255, 255, 255, 0.45);
+}
+.pt-text>h1{
+    text-align: center;
+    font-size:24px;
+    font-weight: bold;
+    line-height: 2;
+    color:black;
+    text-shadow: 0.2px 0.2px 0.2px rgb(189, 188, 188);
+}
+.pt-text>p{
+    text-align: justify;
+    line-height: 1.5;
+    overflow: scroll;
+    height:170px;
+    width:80%;
+    margin-left:10%;
+    margin-right: 10%;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top:8px;
+    box-shadow: 1px 1px 1px gray;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.45);
+    
+}
+.pt-net{
+    margin-left:10%;
+    margin-right:10%;
+    width:80%;
+    height:630px;
+    margin-top:12px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pt-net-left{
+    width:49%;
+}
+.pt-net-right{
+    width:49%;
+    height:740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.net-content{
+    width:100%;
+    height:23%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(255,255,255,0.3);
+}
+.net-content .img{
+    width:40%;
+    height:150px;
+    overflow:hidden;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.img-span{
+    width:100%;
+    text-align: center;
+    background: #000;
+    color: white;
+    z-index: 100;
+    position: absolute;
+    bottom:-30px;
+    left: 0;
+    line-height: 1.8;
+    transition: all 0.5s;
+}
+.net-content .img:hover .img-span{
+    bottom:0;
+}
+.net-content .img img{
+    width:100%;
+    
+}
+.net-content .img-text{
+    width:50%;
+    height:150px;
+}
+.img-text h3{
+    margin-top:5px;
+    text-align: center;
+    color:white;
+    line-height: 2;
+    font-weight: bold;
+    text-shadow: 0.2px 0.2px 0.2px gray;
+    font-size:18px;
+}
+.img-text p{
+    height:100px;
+    padding-left:15px;
+    padding-right:15px;
+    text-align: justify;
+    line-height: 1.4;
+    overflow: scroll;
+    color: rgb(97, 97, 97);
+    font-size:14px;
+}
+.more-info{
+    width:1400px;
+    margin: 0 auto;
+    background-color: rgb(100, 20, 20);
+    position: relative;
+}
+.more .more-a {
+    position: absolute;
+    bottom:12px;
+    right:10px;
+    color: white;
+    font-size: 14px;
+}
+.info-text{
+    display:flex;
+    justify-content: space-around;
+}
+.more-info .feedback{
+    width:32%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-top:10px;
+    margin-bottom:30px;
+    display: flex;
+    align-items: center;
+    transition: all 0.8s;
+}
+.more-info h1{
+    padding-top:15px;
+    text-align: center;
+}
+.more-info a{
+    color:white;
+    font-size:28px;
+    line-height: 2;
+    text-decoration: none;
+}
+.feed-img{
+    width:120px;
+    height:120px;
+    border-radius: 120px;
+    margin-left:10px;
+}
+.feed-img img{
+    width:100%;
+}
+.feed-text{
+    text-align: justify;
+    margin-left:20px;
+    width:280px;
+    height:230px;
+    margin-top:10px;
+    margin-bottom:10px;
+    color:white;
+    line-height: 1.5;
+    overflow: scroll;
+}
+.contact{
+    width:1400px;
+    margin: 0 auto;
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-img{
+    margin-left:40px;
+}
+.contact-img img{
+    width:200px;
+}
+.contact-text{
+    margin-right:40px;
+    color:brown;
+}
+.contact-title{
+    color:black;
+}
+.feedback:hover{
+    box-shadow: 6px 8px 12px orange ;
+}
+.more-info a:hover{
+    color:orange
+}
